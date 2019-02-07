@@ -1,0 +1,72 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+form {
+    max-width: 200px;
+    border: 1px solid rgb(209, 110, 28);
+    border-radius: 5px;
+    margin-left: 115px;
+}
+
+input {
+    border: 0.5px solid rgb(209, 110, 28);
+    margin-top: 15px;
+    width: 190px;
+    margin-left: 5px;
+    
+}
+
+input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+
+button {
+    border: none;
+    margin: 15px auto;
+    background-color: rgb(209, 110, 28);
+    position: relative;
+    left: 50px;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+   
+    
+}
+
+
+.contactItem {
+    border: 1px solid rgb(209, 110, 28);
+    margin: 10px;
+    max-width: 400px;
+}
+
+.contactImage {
+    width: 120px;
+    height: 120px;
+    float: left;
+    border-right: 1px solid rgb(209, 110, 28);
+    margin-right: 15px;
+      
+}
+
+
+
+.contactEmail {
+    display: inline-block;
+    padding-bottom: 15px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+
